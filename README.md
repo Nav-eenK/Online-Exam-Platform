@@ -1,6 +1,5 @@
 # Quizzen – Smart Online Examination Platform
 
-![Quizzen Banner](https://images.unsplash.com/photo-1581091215369-1b5a8e8c3df5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)
 
 ## Live Demo
 Try the platform here: [Quizzen Live](https://online-exam-platform-h965.onrender.com/)
