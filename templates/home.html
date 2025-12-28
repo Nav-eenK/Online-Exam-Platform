@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+
+{% block title %}Home | Quizzen{% endblock %}
+
+{% block content %}
+
+<style>
+    section {
+        min-height: 100vh;
+        scroll-snap-align: start;
+    }
+
+    /* HERO */
+    .hero {
+        background: linear-gradient(120deg, #0f172a, #1e293b);
+        color: white;
+        padding: 140px 8% 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .hero-text {
+        max-width: 520px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        margin: 18px 0;
+        color: #cbd5f5;
+    }
+
+    .hero-text a {
+        padding: 12px 26px;
+        background: #38bdf8;
+        color: #000;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .hero-img img {
+        width: 340px;
+        max-width: 100%;
+    }
+
+    /* FEATURES */
+    .features {
+        background: #f8fafc;
+        padding: 120px 8% 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .features h2 {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 50px;
+        color: #0f172a;
+    }
+
+    .feature-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .feature {
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+        transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+        transform: translateY(-8px);
+    }
+
+    .feature h3 {
+        margin-bottom: 10px;
+        color: #1e293b;
+    }
+
+    .feature p {
+        font-size: 14px;
+        color: #475569;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 992px) {
+        .feature-box {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 32px;
+        }
+
+        .hero-img img {
+            width: 260px;
+        }
+
+        .feature-box {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<!-- HERO SECTION -->
+<section class="hero" id="hero">
+    <div class="hero-text">
+        <h1>Smart Online Examination Platform</h1>
+        <p>Conduct secure exams, track performance, and manage results easily.</p>
+        <a href="#features">Explore Features ↓</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="Exam">
+    </div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features" id="features">
+    <h2>Platform Features</h2>
+
+    <div class="feature-box">
+        <div class="feature">
+            <h3>🧑‍🎓 Secure Login</h3>
+            <p>Role-based authentication for users.</p>
+        </div>
+
+        <div class="feature">
+            <h3>⏱ Timed Exams</h3>
+            <p>Automatic submission after time ends.</p>
+        </div>
+
+        <div class="feature">
+            <h3>📊 Instant Results</h3>
+            <p>Immediate evaluation and scoring.</p>
+        </div>
+
+        <div class="feature">
+            <h3>📝 Question Bank</h3>
+            <p>Centralized question management.</p>
+        </div>
+
+        <div class="feature">
+            <h3>📁 Exam History</h3>
+            <p>View previous exams and results.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🔒 Anti-Cheating</h3>
+            <p>Secure environment to reduce malpractice.</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
