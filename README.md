@@ -1,6 +1,6 @@
 # Quizzen – Smart Online Examination Platform
 
-![Quizzen Banner](srv-d58jfoshg0os73brfuk0)
+![Quizzen Banner](https://dashboard.render.com/web/srv-d58jfoshg0os73brfuk0/env)
 
 ## Description
 
