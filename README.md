@@ -1,6 +1,6 @@
 # Quizzen – Smart Online Examination Platform
 
-![Quizzen Banner](https://dashboard.render.com/web/srv-d58jfoshg0os73brfuk0/env)
+![Quizzen Banner](https://images.unsplash.com/photo-1581091215369-1b5a8e8c3df5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)
 
 ## Description
 
@@ -35,8 +35,4 @@ The platform is built with **Flask (Python)** for the backend and **HTML, CSS, J
 - **Frontend:** HTML, CSS, Jinja2 Templates  
 - **Database:** SQLite (or any SQL database)  
 - **Security:** Password hashing, session management, form validation  
-
----
-
-
 
