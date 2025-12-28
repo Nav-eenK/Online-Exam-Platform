@@ -1,6 +1,6 @@
 # Quizzen – Smart Online Examination Platform
 
-![Quizzen Banner](https://via.placeholder.com/800x200?text=Quizzen+Online+Exam+Platform)
+![Quizzen Banner](srv-d58jfoshg0os73brfuk0)
 
 ## Description
 
